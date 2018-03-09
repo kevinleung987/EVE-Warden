@@ -3,6 +3,11 @@ A tool for EVE Online which detects hostile neutrals in the present system by re
 
 ![](example.png?raw=true)
 
+The image above shows an example usage of this tool.
+On the Left is the console output. 
+On the Right is the cropped section of the EVE window that is being monitored. 
+In the Middle is the name of the neutral(Indicated by the blinking red symbol) that has been cropped out to be processed by Tesseract.
+
 ## Getting Started
 - This program is meant to be used in conjunction with a screen cropping tool like OnTopReplica, but by simply keeping the EVE Online window in focus and with the right offset values, you can run it with just EVE as well.
 - Clone the repository and get the dependencies setup, you will need to install Google Tesseract as well if you want to use the text recognition features. Tesseract 3 is currently being used for this project, but 4 may work as well.
@@ -30,3 +35,7 @@ A tool for EVE Online which detects hostile neutrals in the present system by re
 * [Pillow](https://github.com/python-pillow/Pillow) - Used to manipulate images and grab screen data.
 * [pytesseract](https://github.com/madmaze/pytesseract) - OCR framework for recognizing names.
 * [win32gui](https://pypi.python.org/pypi/win32gui/221.6) - Used to grab window dimensions and locations or to bring windows to focus.
+
+License
+----
+MIT
