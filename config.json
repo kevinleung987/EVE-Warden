@@ -7,8 +7,8 @@
       "Your",
       "White-listed Names here"
    ],
-   "beep_frequency":400,
    "diff_cutoff":0.7,
+   "beep_frequency":400,
    "play_sound":false,
    "pixel_detect":true,
    "u_replace":false,
