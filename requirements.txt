@@ -1,0 +1,3 @@
+pytesseract
+win32gui==221.6
+Pillow==5.0.0

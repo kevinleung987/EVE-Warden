@@ -1,0 +1,30 @@
+{
+   "tesseract_dir":"C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe",
+   "tessdata_dir":"C:\\Program Files (x86)\\Tesseract-OCR\\tessdata",
+   "window_name":"OnTopReplica",
+   "whitelist":[
+      "Add",
+      "Your",
+      "White-listed Names here"
+   ],
+   "beep_frequency":400,
+   "diff_cutoff":0.7,
+   "play_sound":false,
+   "pixel_detect":true,
+   "u_replace":false,
+   "window_offset":[
+      8,
+      8,
+      -8,
+      -4
+   ],
+   "local_offset":[
+      24,
+      8,
+      -8,
+      -4
+   ],
+   "name_size":10,
+   "name_offset":2,
+   "verbose":false
+}
