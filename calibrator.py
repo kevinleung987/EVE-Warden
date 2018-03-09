@@ -11,7 +11,7 @@ name_size = data['name_size']
 name_offset = data['name_offset']
 
 
-for i in range(1):
+if __name__ == '__main__':
     img = evewarden.capture_window(w_offset)
     img.show()
     print("Window dimensions: "+str(img.size))
